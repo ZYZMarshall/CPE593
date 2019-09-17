@@ -18,7 +18,7 @@ public class MillerRabin
 	
 	public static boolean millerRabin(long n)
 	{
-		if(n == 0L || n == 1L)
+		if(n == 0L || n == 1L)              //L ensures that number store as integet not double
 			return false;
 		if(n == 2L || n == 3L)
 			return true;
